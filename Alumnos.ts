@@ -14,8 +14,8 @@ class Alumno {
             return 0;
         }
 
-        const suma = PromedioFinal.reduce((acumulador, numero) => acumulador + numero, 0);
-        const promedio = suma / PromedioFinal.length;
+        let suma = PromedioFinal.reduce((acumulador, numero) => acumulador + numero, 0);
+        let promedio = suma / PromedioFinal.length;
 
         return promedio;
     }
@@ -32,13 +32,13 @@ console.log(Alumno2)
 console.log(Alumno3)
 console.log(Alumno4)
 
-const listaDeAlumnos: Alumno[] = [Alumno1, Alumno2, Alumno3, Alumno4];
+let listaDeAlumnos: Alumno[] = [Alumno1, Alumno2, Alumno3, Alumno4];
 
 let sumaPromedios = 0;
-for (let i = 0; i<listaDeAlumnos.length; i++) {
+for (let i = 0; i < listaDeAlumnos.length; i++) {
     sumaPromedios += listaDeAlumnos[i].PromedioFinal;
 }
 
-const promedioTotal = sumaPromedios / listaDeAlumnos.length;
+let promedioTotal = sumaPromedios / listaDeAlumnos.length;
 
-console.log("El promedio total de los alumnos es:",promedioTotal)
+console.log("El promedio total de los alumnos es:", promedioTotal)
