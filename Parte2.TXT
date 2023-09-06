@@ -1,0 +1,26 @@
+1)
+Cuando ejecutas el comando "tsc", TypeScript revisa tu código TypeScript para asegurarse de que no haya errores relacionados con los tipos de datos que estás utilizando. Luego, convierte este código TypeScript en código JavaScript. Si no encuentra errores y todo está bien, crea archivos JavaScript a partir de tu código TypeScript. Esto es importante porque JavaScript es lo que entienden y pueden ejecutar los navegadores web y otros entornos de programación. 
+
+2)
+La clase se organiza en 6 partes, estas son:
+.Propiedades o Campos: Son variables que almacenan datos relacionados con la clase. Estas propiedades definen el estado de la instancia de la clase. 
+.Constructor : Es un método especial que se llama cuando se crea una instancia de la clase. Se utiliza para inicializar las propiedades de la instancia. 
+.Métodos: Son funciones definidas dentro de la clase que realizan acciones relacionadas con la clase.  Pueden acceder y modificar las propiedades de la clase y realizar operaciones específicas.
+.Tipo de Retorno: Es el tipo de dato que devuelve un método. Puede ser cualquier tipo de dato válido en TypeScript, o puede ser void si el método no devuelve ningún valor.
+."this": La palabra clave  se utiliza para hacer referencia a las propiedades y métodos de la propia instancia de la clase dentro de sus métodos. Permite acceder y modificar el estado de la instancia.
+.Comentarios: Puedes agregar comentarios para documentar el propósito de la clase, propiedades y métodos.
+
+3)
+Si un método es auxiliar y está destinado a ser utilizado solo dentro de la propia clase para realizar tareas internas, es mejor hacerlo privado para encapsular la implementación y evitar que otros objetos accedan a él de manera inapropiada. en cambio, si se espera que otros objetos interactúen con ese método, entonces esta bien que sea público. 
+
+4)
+Las interfaces en TypeScript tienen las siguientes caracteristicas:
+
+.Definen contratos de propiedades y métodos.
+.Permiten abstraer la implementación de clases.
+.Facilitan la reutilización de código al implementar en múltiples clases.
+.Pueden ser extendidas para crear interfaces más específicas.
+.Requieren que las clases implementen todas las propiedades y métodos definidos.
+.Permiten el polimorfismo, lo que significa que puedes tratar objetos de diferentes clases de manera uniforme.
+.Ayudan en la documentación y mejoran la legibilidad del código.
+.Facilitan la refactorización y cambios seguros en el código.

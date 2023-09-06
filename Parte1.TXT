@@ -1,0 +1,18 @@
+1) 
+Usar TypeScript como lenguaje tiene varias ventajas alguna de estas son:
+.Mejora de la legibilidad y mantenibilidad: Cualquier persona que lea el código puede comprender más fácilmente qué tipos de datos se esperan en diferentes partes del programa. Además, los tipos claros hacen que el proceso de mantenimiento sea más sencillo, ya que se reducen las posibilidades de introducir errores mientras se realizan cambios.
+.Mejora la colaboración en equipos grandes: En equipos de desarrollo grandes, el uso de tipos estáticos ayuda a garantizar que todos los miembros del equipo sigan las mismas convenciones de codificación y utilicen las estructuras de datos de manera coherente.
+.Detecta errores antes de la ejecución: Algunos errores, como llamadas a funciones inexistentes o tipos incorrectos, se detectan durante la fase de compilación en lugar de aparecer en tiempo de ejecución.
+
+2)
+ Las variables internas son  variables locales que se utilizan para almacenar datos dentro de una función o bloque y no están disponibles fuera de ese contexto. Estas son útiles para mantener datos locales y temporales dentro de una función sin contaminar el espacio de nombres global y ayudan a encapsular la lógica dentro de funciones o bloques de código específicos.
+
+3)
+La herencia implica crear una relación de jerarquía entre clases, donde una clase derivada (subclase) hereda propiedades y métodos de una clase base (superclase). La subclase puede agregar, modificar o anular el comportamiento de la superclase según sea necesario.
+En cambio La composición implica crear una relación en la que un objeto contiene o se compone de otros objetos  como sus componentes. En lugar de heredar propiedades y métodos, un objeto se compone de otros objetos para reutilizar funcionalidad.
+Es decir que la herencia crea una jerarquía de clases donde una subclase hereda de una superclase, mientras que la composición crea relaciones entre objetos al combinar componentes.
+
+4)
+Los mecanismos que provee Typescript son:
+.Tipado estático: TypeScript permite definir tipos de datos para los parámetros de una función o método. Esto proporciona una primera capa de validación en tiempo de compilación, lo que significa que si se pasa un argumento de tipo incorrecto, TypeScript emitirá un error.
+.Parámetros por defecto: Puedes asignar valores predeterminados a los parámetros en TypeScript. Esto permite que una función se llame incluso si no se proporciona un valor para un parámetro, y el valor por defecto se utilizará en su lugar.
