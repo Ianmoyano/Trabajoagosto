@@ -1,0 +1,24 @@
+<mxfile host="65bd71144e">
+    <diagram id="gjusC17R3CcEInW8AacZ" name="Page-1">
+        <mxGraphModel dx="787" dy="355" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Alumno" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="60" width="130" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;" edge="1" parent="1" source="6">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="300" y="230" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="#Nombre:string&lt;br&gt;#Apellido:string&lt;br&gt;#DNI:number&lt;br&gt;+PromedioFinal:number" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="80" width="130" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+constructor(Nombre, Apellido, DNI, PromedioFinal)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+calcualrProemdio(PromedioFinal: number[]): number&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="230" width="300" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
